@@ -1,0 +1,17 @@
+one to nine,Square Recursive Division Grid,DoubleNarrow,3
+alphabet,Alphabet,RectangularGridFrame,
+double alphabet,Double Alphabet,RectangularGridFrame,
+alphabet numbers,Recursively Divisible Combination,UniversalPosition,alphabet:one to nine
+double alphabet numbers,Recursively Divisible Combination,QuadrupleFrame,double alphabet:one to nine
+one through nine double alphabet,Recursively Divisible Combination,Narrow:RectangularGridFrame,one to nine:double alphabet numbers
+doubling,Horizontal Doubling,ReverseCoordinateDoublingDisplay(DoubleFrame),double alphabet numbers
+doubling experiment,Horizontal Doubling,ReverseCoordinateDoublingDisplay(Narrow):RectangularGridFrame,one through nine double alphabet
+another experiment,Horizontal Doubling,ReverseCoordinateDoublingDisplay(Narrow):RectangularGridFrame,one through nine double alphabet
+one through nine doubling,Recursively Divisible Combination,Narrow:ReverseCoordinateDoublingDisplay(RectangularGridFrame),one to nine:doubling
+primary reverse,Recursively Divisible Combination,UniversalPosition,doubling:alphabet
+numeric double,Horizontal Doubling,ReverseCoordinateDoublingDisplay(UniversalPosition),one to nine
+simpler primary reversed,Recursively Divisible Combination,ReverseCoordinateDoublingDisplay(UniversalPosition):RectangularGridFrame,numeric double:alphabet
+vertical doubling,Vertical Doubling,ReverseCoordinateDoublingDisplay(DoubleFrame),double alphabet numbers
+horizontal doubling test,Horizontal Doubling,ReverseCoordinateDoublingDisplay(DoubleFrame),double alphabet numbers
+the choose thing,Alphabet,QuadrupleRectangularDiagonal,
+yet another,Recursively Divisible Combination,QuadrupleFrame,double alphabet:one to nine
