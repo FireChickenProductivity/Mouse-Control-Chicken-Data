@@ -31,3 +31,9 @@ settings():
     user.mouse_control_chicken_transparency_flickering_hide_time = 4000
 	user.mouse_control_chicken_default_horizontal_frame_proximity_distance = 340
     user.mouse_control_chicken_default_vertical_frame_proximity_distance = 265
+	user.mouse_control_chicken_scrolling_amount = 600
+	#Set this to user.mouse_control_chicken_move_only_to_position to only move the mouse to the position when the quick action is performed.
+	#This can be any talon action that takes a string as an argument.
+	user.mouse_control_chicken_quick_action = ""
+	#During continuous scrolling, this is multiplied by the speed value to determine the amount to scroll.
+	user.mouse_control_chicken_continuous_scrolling_unit = 20
