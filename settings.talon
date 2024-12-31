@@ -37,3 +37,6 @@ settings():
 	user.mouse_control_chicken_quick_action = ""
 	#During continuous scrolling, this is multiplied by the speed value to determine the amount to scroll.
 	user.mouse_control_chicken_continuous_scrolling_unit = 20
+	#Every nth position is shown on the frames of a frame display where n is the frequency.
+	user.mouse_control_chicken_default_frame_checker_frequency = 2
+	user.mouse_control_chicken_dragging_delay = 0.5
